@@ -1,10 +1,10 @@
-package project.ExamBuddyBackend;
+package com.project.SmartExaminerBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExamBuddyBackendApplicationTests {
+class SmartExaminerBackendApplicationTests {
 
 	@Test
 	void contextLoads() {

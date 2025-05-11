@@ -1,6 +1,8 @@
-package project.ExamBuddyBackend.QuestionPaperGeneration.MySQLServices;
+package com.project.SmartExaminerBackend.QuestionPaperGeneration.MySQL.Entities;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -20,6 +22,7 @@ public class Subject {
 	@Column(nullable = false, unique = true)
 	private String subjectName;
 	
+	@JsonIgnore
 	@OneToMany(mappedBy = "subject", cascade = CascadeType.ALL)
 	private List<Topic> topics;
 

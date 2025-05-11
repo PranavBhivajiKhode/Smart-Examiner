@@ -1,4 +1,4 @@
-package project.ExamBuddyBackend.QuestionPaperGeneration.MySQLServices;
+package com.project.SmartExaminerBackend.QuestionPaperGeneration.MySQL.Entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -107,3 +107,4 @@ public class Question {
 	
 	
 }
+
