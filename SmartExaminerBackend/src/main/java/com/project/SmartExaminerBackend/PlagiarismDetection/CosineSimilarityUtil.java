@@ -8,9 +8,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class CosineSimilarityUtil {
     // yes
+	// yes
     public double calculateCosineSimilarity(String text1, String text2) {
         Map<String, Integer> freq1 = getWordFreq(text1);
         Map<String, Integer> freq2 = getWordFreq(text2);
+        
         
         double dotProduct = 0.0;
         double normA = 0.0;
