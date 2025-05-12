@@ -24,6 +24,7 @@ public class TextExtraction {
         }
     }
 	// yes
+    // yes
 	public String extractTextFromWord(File file) throws IOException {
 	    try (FileInputStream fis = new FileInputStream(file);
 	         XWPFDocument doc = new XWPFDocument(fis);
