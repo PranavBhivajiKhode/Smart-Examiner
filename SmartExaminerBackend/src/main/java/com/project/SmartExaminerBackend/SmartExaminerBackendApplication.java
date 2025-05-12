@@ -22,16 +22,16 @@ public class SmartExaminerBackendApplication {
 	
 
 
-    @Bean
-    public CommandLineRunner demoData() {
-        return args -> {
-            Subject sub = repository.findById(6L).orElse(null);
-            if (sub != null) {
-                System.out.println("Subject: " + sub.getSubjectName());
-            } else {
-                System.out.println("Subject not found");
-            }
-        };
-    }
+//    @Bean
+//    public CommandLineRunner demoData() {
+//        return args -> {
+//            Subject sub = repository.findById(6L).orElse(null);
+//            if (sub != null) {
+//                System.out.println("Subject: " + sub.getSubjectName());
+//            } else {
+//                System.out.println("Subject not found");
+//            }
+//        };
+//    }
 
 }
